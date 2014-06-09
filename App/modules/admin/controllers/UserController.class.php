@@ -1,6 +1,6 @@
 <?php
 namespace App\modules\admin\controllers;
-class userController extends \phpful\Core\Controller{
+class userController extends \phpful\core\Controller{
  
     
     public function get(){
