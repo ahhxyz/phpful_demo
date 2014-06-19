@@ -8,11 +8,12 @@ class UserModel extends \phpful\core\Model{
         
     ];
     protected $_map=[
+        //"表单字段"=>"数据库字段",
         "mingzi"=>"name",
     ];
     public $_validate=[
-       // ["数据库字段名称","验证规则","错误提示"]，
-       ["name","require","用户名必须！"], 
+       // ["表单字段名称","验证规则","错误提示"]，
+       ["mingzi","require","用户名必须！"], 
         
     ];
 }

@@ -8,7 +8,7 @@ class UserController extends \phpful\core\Controller{
         //var_dump($m);
         $_POST["mingzi"]="用户名";
         $_POST["age"]=12;
-        $m->insert();
+        var_dump($m->insert());
         echo "USER控制器";
     }
     
