@@ -8,6 +8,14 @@ return [
     "ROUTERS"=>[
         "test"=>"admin/user"
     ],
+    "DB"=>[
+        "TYPE"=>"mysql",
+        "HOST"=>"localhost",
+        "DBNAME"=>"phpful_demo",
+        "USER"=>"root",
+        "PASSWORD"=>"123456",
+        "PREFIX"=>"phpful_"
+    ],
     /*
      * 应用所包含的模块，模块的配置在各自的配置文件当中。
      * 使用小写
